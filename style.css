@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+body {
+	margin:0px;
+	padding:0px;
+	background-color: #009CC4;
+	color:#FFFFFF;
+	font-family: Arial, sans-serif;
+}
+
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+	width: 595px;
+	height: 100px;
+	background-color: #00b9e8;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.head {
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 420px;
+    height: 50px; 
+}
+
+hr {
+    border: none;
+    background-color: #FFF;
+    width: auto;
+    color: #00b9e8;
+    height: 1px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+input[type="text"],input[type="number"]  {
+	background-position: 4px; 
+    outline: none; 
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px; 
+    border-radius: 15px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    margin: auto;
+    height: 20px; 
+    width: 180px;
+    font-size: 13px; 
+    border: none; 
+    outline: none; 
+    float: left;
+    -webkit-appearance: none; 
+}
+input:focus { outline: none; }
+
+input[type="submit"]  {
+	background-position: 4px; 
+    outline: none; 
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px; 
+    border-radius: 15px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    margin: auto;
+    height: 20px; 
+    width: 592px;
+    font-size: 13px; 
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+	cursor: hand; 
+    float: left;
+    background-color: #4CD083;
+    color: #FFF;
+    -webkit-appearance: none; 
+    transition:all 0.3s ease;
+}
+input[type="submit"]:hover {
+	background: #53ea93;
+	color: #454545;
+}
+
+select  {
+	background-position: 4px; 
+    outline: none; 
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px; 
+    border-radius: 15px; 
+    padding-left: 10px; 
+    padding-right: 32px; 
+    margin: auto;
+    height: 22px; 
+    width: auto;
+    font-size: 13px; 
+    margin-left: 3px;
+    border: none; 
+    outline: none; 
+    -webkit-appearance: none; 
+    background: url(Select.png) #FFF 30px 100% no-repeat;
+
+}
+
+#zecimal{
+    background-position: 4px; 
+    outline: none; 
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px; 
+    border-radius: 15px; 
+    padding-left: 10px; 
+    padding-right: 31px; 
+    margin: auto;
+    height: 22px; 
+    width: auto;
+    font-size: 13px; 
+    margin-left: 3px;
+    border: none; 
+    outline: none; 
+    -webkit-appearance: none; 
+    background: url(Select.png) #FFF 66px 100% no-repeat;
+
+}
+

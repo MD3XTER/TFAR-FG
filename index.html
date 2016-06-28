@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from radio.appi.su/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jun 2016 15:33:53 GMT -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Tushino Radio</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="jquery-2.2.2.min.js" type="text/javascript"></script>
+	<script src="scr.js"></script>
+</head>
+<body>
+	<div class="head">
+	Created by <a href="http://radio.appi.su/">Appi</a>, Updated by <a href="http://xn--c1adahg2atfb8hee9d.xn--p1ai/user/Suhoi/">Suhoi</a>
+	</div>
+	<div class="content">
+		<!--
+		Dv A3: 30-70
+		Kv A3: 50-500
+
+		Dv A2: 2-29
+		Kv A2: 30-512
+		-->
+		<div style="float:left; padding-top: 3px">Введите диапазон от </div>
+		<input type="number" name="min" value="50" id="min" style="width: 40px;margin-left: 5px; margin-right: 5px;" />
+		<div style="float:left;  padding-top: 3px">до</div>
+		<input type="number" name="max" value="500" id="max" style="width: 40px; margin-left: 5px; margin-right: 5px;" />
+		<select name="arma" id="arma" onchange="set_radio()">
+			<option value="a2">А2</option>
+			<option selected value="a3">А3</option>
+		</select>
+		<select name="radio" id="radio" onchange="set_radio()">
+			<option value="kv">КВ</option>
+			<option value="dv">ДВ</option>
+		</select>
+		метод
+		<select name="zecimal" id="zecimal">
+			<option value="лёгкий">лёгкий</option>
+			<option value="тяжелый">тяжелый</option>
+		</select>
+		<br>
+		<input type="text" id="tag" placeholder="Отрядный тег" name="squad" style="width: 572px; margin-top: 5px;" />	
+		<br>
+		<input type="text" id="gen" placeholder="Ваша частота" name="gen" style="width: 572px;  margin-top: 5px;" />
+		<br>
+		<input type="submit" value="Генерировать" name="gen" style="margin-top: 5px;"  onclick="gen_radio()" />
+	</div>
+</body>
+
+<!-- Mirrored from radio.appi.su/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 03 Jun 2016 15:33:54 GMT -->
+</html>
