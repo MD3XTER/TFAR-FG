@@ -1,4 +1,4 @@
-#TaskForceArmaRadio Frequency Generator (TFAR-FG)
+#TaskForceArmaRadio-Frequency Generator (TFAR-FG)
 Это веб-приложение для Arma 2/3 игроков, которые используют [TFAR мод](http://radio.task-force.ru/), это приложение генерирует случайную частоту для вашего радио на основе выбранных опций, получайте удовольствие :)
 
 НАПИСАНО: Andrei Zgirvaci
